@@ -8,6 +8,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="MSTest.TestAdapter" Version="3.6.0" />
+    <PackageReference Include="MSTest.TestFramework" Version="3.6.0" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Reference Include="GeometryLibrary">
       <HintPath>..\..\GeometryLibrary\GeometryLibrary\bin\Debug\net8.0\GeometryLibrary.dll</HintPath>
     </Reference>
